@@ -1,0 +1,178 @@
+-------------------------------------------------
+  Lanceur de ROM SG-1000(II), FG-1000, SC-3000, 
+ Othello Multivision & Mark III/Gam*boy coréenne
+      pour MSX avec une cartouche Franky,
+      Musical Memory Mapper ou Playsoniq
+
+                v0.96 par GDX
+-------------------------------------------------
+
+SG1000.COM permet de jouer aux jeux SG-1000 sur MSX. Utilisez une cartouche
+Franky, Musical Memory Mapper ou Playsoniq pour obtenir le son comme avec la
+console originale. Autrement, vous n'aurez aucun son.
+
+
+Installation:
+
+ Sous MSX-DOS1, copiez les fichiers SG1000.COM, SG1000.DAT et SG1000F.DAT sur
+ le même disque où se trouvent vos Roms.
+
+ Sous MSX-DOS2 ou Nextor, vous pouvez copier SG1000.COM dans un autre dossier
+ ou disque si le chemin est spécifié dans la variable d'environnement PATH.
+ 
+ SG1000F.DAT n'est pas nécessaire si vous n'avez pas de Franky.
+ 
+
+Utilisation:
+
+ SG1000.COM est une commande MSX-DOS1/2. 
+ Entrée de la commande et le nom du fichier de la ROM à la suite.
+
+  >SG1000 RomName.ext
+
+ - L'option /F doit être ajoutée si vous utilisez la cartouche Franky.
+   Autrement, vous pouvez renommer SG1000F.DAT par SG1000.DAT pour éviter de
+   spécifier l'option.
+ - L'option /S peut être utilisée pour obtenir des couleurs proche de la
+   Sega Master System.
+
+
+Exemple :
+
+  A>SG1000 DROL.SG
+
+
+List des jeux SG-1000 supportés :
+
+ 007 James Bond [Othello Multivision] (Un seul joueur pris en charge avec la v2.6)
+ Bank Panic
+ Bomb Jack
+ Borderline
+ C So!
+ Chack'n Pop
+ Challenge Derby
+ Champion Baseball
+ Champion Billiards
+ Champion Boxing
+ Champion Golf
+ Champion Ice Hockey
+ Champion Pro Wrestling
+ Champion Soccer
+ Champion Tennis
+ Choplifter
+ Congo Bongo
+ DokiDoki Penguin Land
+ Dragon Wang
+ Drol
+ Elevator Action
+ Flicky
+ FudeBrowser [v.1.2] (Roms jusqu'à 48 Ko uniquement)
+ Girl's Garden
+ Golgo 13
+ GP World
+ Gun Smoke
+ Guzzler [Othello Multivision]
+ H7N9 [Demo 2016.10.24]
+ H.E.R.O.
+ Hang-On II
+ Home Mahjong
+ Hong Gil-Dong
+ Hustle Chumy
+ Lode Runner
+ Mahjong
+ Magikal Kid Wiz
+ Monaco GP
+ N-Sub
+ Ninja Princess
+ Okamoto Ayako no Match Play Golf [Othello Multivision]
+ Orguss
+ Othello
+ Pacar
+ Pachinko
+ Pachinko II
+ Pitfall II - The Lost Caverns
+ Pop Flamer
+ Q-bert [Othello Multivision]
+ Rock'n Bolt (Fonctionne uniquement sur MSX1, bugs graphiques sur MSX2~)
+ Safari Hunting
+ Safari Race
+ San-nin Mahjong
+ Sega Flipper
+ Sega-Galaga
+ Serizawa Hachidan no Tsumeshogi
+ ShinNyushaIn Tooru Kun
+ Sindbad
+ Sky Fighter
+ Space Armor (Fonctionne uniquement sur MSX1, les sprites buguent sur MSX2~)
+ Space Invaders
+ Space Mountain [Othello Multivision]
+ Star Force
+ Star Jacker
+ Star Soldier
+ Super Uwolf
+ Super Tank
+ The Black Onyx
+ The Castle
+ Yamato
+ Zaxxon
+ Zippy Race
+ Zoom 909
+
+Note : Plusieurs Roms de 40 Ko ont une version plus petite.
+       La différence principale est la présence ou non de reflets.
+
+
+List des jeux, pour SG-1000 avec une extension de RAM, supportés :
+
+ Alibaba and 40 Thieves
+ Block Hole
+ Bomberman Special 
+ Bubble Bobble
+ Cabbage Patch Kids
+ Circus Charlie
+ Comic Bakery
+ Dr. Hello!
+ Eagles 5 (Ne fonctionne pas sur certains MSX)
+ Exa Innova
+ FA-Tetris
+ Flashpoint
+ Galaxian
+ Hyper Sport
+ Hyper Sport 2
+ King Valley
+ Knightmare
+ Micro Xevious
+ New Boggle Boggle 2
+ Ping pong
+ Power Boggle Boggle
+ Puznic
+ Rally-X
+ Road Fighter
+ Sky Jaguar
+ Super Boy
+ Super Boy 2
+ Super Bubble Bobble
+ Tank Battalion
+ The Legend of Kage
+ Three Dragon Story
+ TwinBee
+ Wonder Boy
+ Yie Ar Kung-Fu (Fonctionne mal)
+ Yie Ar Kung-Fu II
+
+
+Notes:
+- Les Roms qui nécessitent une extension de RAM utilisent les modes d'écran
+  de la SG-1000. Certains d'entre eux ont été vendus pour la Gam*boy ou
+  l'Aaronix MarkIII (version coréenne ou taïwanaise de la MarkIII). Plusieurs
+  de ces jeux ont un son mal converti d'origine.
+- Le clavier n'est pas pris en charge.
+- Cette version prend en charge les ROM jusqu'à 48 Ko.
+- Musical Memory Mapper est une cartouche faite par Popolon (fr).
+   https://www.msx.org/wiki/Popolon_Musical_Memory_Mapper
+   http://www.ebsoft.fr/shop/fr/home/35-musical-memory-mapper.html
+- Franky & Playsoniq sont des cartouches faites par SuperSoniqs.
+   http://supersoniqs.com/category/playsoniq/
+
+
+Bon jeu!

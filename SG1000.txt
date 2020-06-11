@@ -1,0 +1,175 @@
+-------------------------------------------------
+     SG-1000(II), FG-1000, SC-3000, Othello 
+ Multivision & Mark III/Korean Gam*boy ROM Loader
+  for MSX with Franky, Musical Memory Mapper or
+             Playsoniq cartridge
+
+                v0.96 by GDX
+-------------------------------------------------
+
+SG1000.COM allows you to play SG-1000 games on MSX. Franky, Musical Memory
+Mapper or Playsoniq cartridge allows to get a perfect sound.
+You will not get sound without one of these three cartridges.
+
+
+How to install:
+
+ In MSX-DOS1, copy SG1000.COM, SG1000.DAT and SG1000F.DAT on the same disk
+ where there are your Roms.
+
+ In MSX-DOS2 or Nextor, you can copy SG1000.COM in another folder or disk
+ if the path is specified in the environment variable PATH.
+ 
+ SG1000F.DAT is not necessary if you don't have a Franky cartridge.
+ 
+
+Using:
+
+ SG1000.COM is a MSX-DOS1/2 command. 
+ Input the command and file name of the ROM in following order.
+
+  >SG1000 RomName.ext
+
+ /F option must be added if you use the Franky cartridge. Otherwise, you can
+    rename SG1000F.DAT as SG1000.DAT to avoid specifying the option.
+
+ /S option can be used to get the colors like the Sega Master System.
+
+
+Example:
+
+  A>SG1000 DROL.SG
+
+
+List of SG-1000 games supported:
+
+ 007 James Bond [Othello Multivision] (Only 1 player supported with the v2.6)
+ Bank Panic
+ Bomb Jack
+ Borderline
+ C So!
+ Chack'n Pop
+ Challenge Derby
+ Champion Baseball
+ Champion Billiards
+ Champion Boxing
+ Champion Golf
+ Champion Ice Hockey
+ Champion Pro Wrestling
+ Champion Soccer
+ Champion Tennis
+ Choplifter
+ Congo Bongo
+ DokiDoki Penguin Land
+ Dragon Wang
+ Drol
+ Elevator Action
+ Flicky
+ FudeBrowser [v.1.2] (Roms up to 48kB only)
+ Girl's Garden
+ Golgo 13
+ GP World
+ Gun Smoke
+ Guzzler [Othello Multivision]
+ H7N9 [Demo 2016.10.24]
+ H.E.R.O.
+ Hang-On II
+ Home Mahjong
+ Hong Gil-Dong
+ Hustle Chumy
+ Lode Runner
+ Mahjong
+ Magikal Kid Wiz
+ Monaco GP
+ N-Sub
+ Ninja Princess
+ Okamoto Ayako no Match Play Golf [Othello Multivision]
+ Orguss
+ Othello
+ Pacar
+ Pachinko
+ Pachinko II
+ Pitfall II - The Lost Caverns
+ Pop Flamer
+ Q-bert [Othello Multivision]
+ Rock'n Bolt (Works on MSX1 only, graphical bugs during stages on MSX2~)
+ Safari Hunting
+ Safari Race
+ San-nin Mahjong
+ Sega Flipper
+ Sega-Galaga
+ Serizawa Hachidan no Tsumeshogi
+ ShinNyushaIn Tooru Kun
+ Sindbad
+ Sky Fighter
+ Space Armor (Works on MSX1 only, sprites bug on MSX2~)
+ Space Invaders
+ Space Mountain [Othello Multivision]
+ Star Force
+ Star Jacker [v1.2]
+ Star Soldier
+ Super Uwolf
+ Super Tank
+ The Black Onyx
+ The Castle
+ Yamato
+ Zaxxon
+ Zippy Race
+ Zoom 909
+
+Note: Several Roms of 40kB are same as another smaller version.
+      Mainly difference is presence of mirrors.
+
+
+List of games for SG-1000 with a RAM expansion supported:
+
+ Alibaba and 40 Thieves
+ Block Hole
+ Bomberman Special 
+ Bubble Bobble
+ Cabbage Patch Kids
+ Circus Charlie
+ Comic Bakery
+ Dr. Hello!
+ Eagles 5 (Doesn't work on some MSX)
+ Exa Innova
+ FA-Tetris
+ Flashpoint
+ Galaxian
+ Hyper Sport
+ Hyper Sport 2
+ King Valley
+ Knightmare
+ Micro Xevious
+ New Boggle Boggle 2
+ Ping pong
+ Power Boggle Boggle
+ Puznic
+ Rally-X
+ Road Fighter
+ Sky Jaguar
+ Super Boy
+ Super Boy 2
+ Super Bubble Bobble
+ Tank Battalion
+ Three Dragon Story
+ The Legend of Kage
+ TwinBee
+ Wonder Boy
+ Yie Ar Kung-Fu (doesn't work properly)
+ Yie Ar Kung-Fu II
+
+
+Notes:
+- Roms that require a Ram expansion use SG-1000 screen modes. Some of them were
+  sold for the Gam*boy or Aaronix MarkIII (Korean or Taiwanese version of the
+  MarkIII). Several of these games have originally a badly converted sound.
+- The keyboard is not supported.
+- This version supports the ROMs up to 48kB.
+- Musical Memory Mapper is a cartridge made by Popolon (fr).
+   https://www.msx.org/wiki/Popolon_Musical_Memory_Mapper
+   http://www.ebsoft.fr/shop/fr/home/35-musical-memory-mapper.html
+- Franky & Playsoniq are cartridges made by SuperSoniqs.
+   http://supersoniqs.com/category/playsoniq/
+
+Enjoy!
