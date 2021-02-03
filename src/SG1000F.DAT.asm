@@ -12,8 +12,8 @@
 ; output=SG1000F.DAT	; for Franky & Playsoniq cartridge
 
 
-PSGo	equ	03Fh		; SN76489 port for MMM cartridge
-;PSGo	equ	049h		; SN76489 port for Franky cartridge
+;PSGo	equ	03Fh		; SN76489 port for MMM cartridge
+PSGo	equ	049h		; SN76489 port for Franky cartridge
 
 	org	01000h
 
