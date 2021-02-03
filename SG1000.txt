@@ -58,6 +58,7 @@ List of SG-1000 games supported:
  Champion Pro Wrestling
  Champion Soccer
  Champion Tennis
+ Championship Lode Runner
  Choplifter
  Congo Bongo
  DokiDoki Penguin Land
