@@ -1,6 +1,6 @@
 -------------------------------------------------
   Lanceur de ROM SG-1000(II), FG-1000, SC-3000, 
- Othello Multivision & Mark III/Gam*boy coréenne
+ Othello Multivision & Mark III/Gam*boy corÃ©enne
       pour MSX avec une cartouche Franky,
       Musical Memory Mapper ou Playsoniq
 
@@ -15,25 +15,25 @@ console originale. Autrement, vous n'aurez aucun son.
 Installation:
 
  Sous MSX-DOS1, copiez les fichiers SG1000.COM, SG1000.DAT et SG1000F.DAT sur
- le même disque où se trouvent vos Roms.
+ le mÃªme disque oÃ¹ se trouvent vos Roms.
 
  Sous MSX-DOS2 ou Nextor, vous pouvez copier SG1000.COM dans un autre dossier
- ou disque si le chemin est spécifié dans la variable d'environnement PATH.
+ ou disque si le chemin est spÃ©cifiÃ© dans la variable d'environnement PATH.
  
- SG1000F.DAT n'est pas nécessaire si vous n'avez pas de Franky.
+ SG1000F.DAT n'est pas nÃ©cessaire si vous n'avez pas de Franky.
  
 
 Utilisation:
 
  SG1000.COM est une commande MSX-DOS1/2. 
- Entrée de la commande et le nom du fichier de la ROM à la suite.
+ EntrÃ©e de la commande et le nom du fichier de la ROM Ã  la suite.
 
   >SG1000 RomName.ext
 
- - L'option /F doit être ajoutée si vous utilisez la cartouche Franky.
-   Autrement, vous pouvez renommer SG1000F.DAT par SG1000.DAT pour éviter de
-   spécifier l'option.
- - L'option /S peut être utilisée pour obtenir des couleurs proche de la
+ - L'option /F doit Ãªtre ajoutÃ©e si vous utilisez la cartouche Franky.
+   Autrement, vous pouvez renommer SG1000F.DAT par SG1000.DAT pour Ã©viter de
+   spÃ©cifier l'option.
+ - L'option /S peut Ãªtre utilisÃ©e pour obtenir des couleurs proche de la
    Sega Master System.
 
 
@@ -42,7 +42,7 @@ Exemple :
   A>SG1000 DROL.SG
 
 
-List des jeux SG-1000 supportés :
+List des jeux SG-1000 supportÃ©s :
 
  007 James Bond [Othello Multivision] (Un seul joueur pris en charge avec la v2.6)
  Bank Panic
@@ -59,6 +59,7 @@ List des jeux SG-1000 supportés :
  Champion Pro Wrestling
  Champion Soccer
  Champion Tennis
+ Championship Lode Runner
  Choplifter
  Congo Bongo
  DokiDoki Penguin Land
@@ -66,7 +67,7 @@ List des jeux SG-1000 supportés :
  Drol
  Elevator Action
  Flicky
- FudeBrowser [v.1.2] (Roms jusqu'à 48 Ko uniquement)
+ FudeBrowser [v.1.2] (Roms jusqu'Ã  48 Ko uniquement)
  Girl's Garden
  Golgo 13
  GP World
@@ -119,10 +120,10 @@ List des jeux SG-1000 supportés :
  Zoom 909
 
 Note : Plusieurs Roms de 40 Ko ont une version plus petite.
-       La différence principale est la présence ou non de reflets.
+       La diffÃ©rence principale est la prÃ©sence ou non de reflets.
 
 
-List des jeux, pour SG-1000 avec une extension de RAM, supportés :
+List des jeux, pour SG-1000 avec une extension de RAM, supportÃ©s :
 
  Alibaba and 40 Thieves
  Block Hole
@@ -162,12 +163,12 @@ List des jeux, pour SG-1000 avec une extension de RAM, supportés :
 
 
 Notes:
-- Les Roms qui nécessitent une extension de RAM utilisent les modes d'écran
-  de la SG-1000. Certains d'entre eux ont été vendus pour la Gam*boy ou
-  l'Aaronix MarkIII (version coréenne ou taïwanaise de la MarkIII). Plusieurs
+- Les Roms qui nÃ©cessitent une extension de RAM utilisent les modes d'Ã©cran
+  de la SG-1000. Certains d'entre eux ont Ã©tÃ© vendus pour la Gam*boy ou
+  l'Aaronix MarkIII (version corÃ©enne ou taÃ¯wanaise de la MarkIII). Plusieurs
   de ces jeux ont un son mal converti d'origine.
 - Le clavier n'est pas pris en charge.
-- Cette version prend en charge les ROM jusqu'à 48 Ko.
+- Cette version prend en charge les ROM jusqu'Ã  48 Ko.
 - Musical Memory Mapper est une cartouche faite par Popolon (fr).
    https://www.msx.org/wiki/Popolon_Musical_Memory_Mapper
    http://www.ebsoft.fr/shop/fr/home/35-musical-memory-mapper.html
